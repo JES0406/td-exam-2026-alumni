@@ -7,11 +7,11 @@ on:
 
 env:
   PROJECT_ID: ${{ var.GCP_PROJECT_ID }}
-  GKE_CLUSTER: ${{ var.GKE_CLUSTER }}
-  GKE_ZONE: ${{ var.GCP_ZONE }}
-  IMAGE_NAME_ROUTER: gcr.io/${{ var.GCP_PROJECT_ID }}/router
-  IMAGE_NAME_API: gcr.io/${{ var.GCP_PROJECT_ID }}/api-gw
-  IMAGE_NAME_STORE: gcr.io/${{ var.GCP_PROJECT_ID }}/backend-storage
+  GKE_CLUSTER: ${{ vars.GKE_CLUSTER }}
+  GKE_ZONE: ${{ vars.GCP_ZONE }}
+  IMAGE_NAME_ROUTER: gcr.io/${{ vars.GCP_PROJECT_ID }}/router
+  IMAGE_NAME_API: gcr.io/${{ vars.GCP_PROJECT_ID }}/api-gw
+  IMAGE_NAME_STORE: gcr.io/${{ vars.GCP_PROJECT_ID }}/backend-storage
 jobs:
   deploy:
     runs-on: ubuntu-latest
