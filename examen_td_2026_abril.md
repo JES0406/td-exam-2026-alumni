@@ -21,7 +21,7 @@
 - C) Almacena estado directamente en etcd
 - D) Ejecuta Pods
 
-**Solución: B) y C)** 
+**Solución: A) y B)** 
 
 
 ## **3. Elige la respuesta correcta sobre Terraform**
@@ -48,7 +48,7 @@
 - C) Permite rollout directamente
 - D) Es usado por Deployments
 
-**Solución: B) y D)** 
+**Solución: A), B) y D)** 
 
 ## **6. Sobre Deployments, elige las respuestas correctas:**
 
@@ -57,7 +57,7 @@
 - C) Gestionan directamente nodos
 - D) Permiten estrategias de actualización
 
-**Solución: B)**
+**Solución: A), B) y D)**
 
 ## **7. Selecciona que afirmación es incorrecta sobre Git y el comando Cherry-pick**
 - A) `git cherry-pick <hash>` aplica los cambios de un commit específico a la rama actual
@@ -65,7 +65,7 @@
 - C) Crea un commit totalmente nuevo con un nuevo hash
 - D) Borra el commit original de la rama de origen
 
-**Solución: B)**
+**Solución: D)**
 
 
 ## **8. Sobre StatefulSets, elige las respuestas correctas:**
@@ -75,7 +75,7 @@
 - C) No permiten escalado
 - D) Usan ReplicaSets por debajo
 
-**Solución: B) y D)**
+**Solución: A) y B)**
 
 ## **9. Elige las respuestas correctas sobre Services:**
 
@@ -110,7 +110,7 @@
 - C) Se usan para secretos
 - D) Se pueden inyectar como variables de entorno
 
-**Solución: A) y D)**
+**Solución: A), B) y D)**
 
 ## **13. Elige la respuesta correcta sobre Cloud Functions (2nd Gen)**
 - A) Está construida sobre Cloud Run y Eventarc
@@ -136,7 +136,7 @@
 - C) `git switch -c <nombre>` es una alternativa moderna para crear y cambiar de rama
 - D) `git commit -m` sirve para fusionar ramas
 
-**Solución: A), B) y C)**
+**Solución: B) y C)**
 
 
 ## **16. Elige las respuestas correctas respecto a los workflows de GitHub Actions**
